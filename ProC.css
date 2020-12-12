@@ -1,0 +1,309 @@
+/*
+دي عشان اقدر اثبت الويدث بتاع الديف او غيره مهما 
+ضفت بادينج او بوردر او غيره 
+*/
+
+
+/*Start Global*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2c485a;
+    background: -webkit-linear-gradient(to right,#a3b9cf, #82bfe7);
+    background: linear-gradient(to right,#758ba0, #6598b9);
+}
+
+.headline {
+    color:rgb(40, 40, 70);
+    position: relative;
+}
+
+.headline:after {
+    content:"";
+    display: block;
+    position: absolute;
+    top:40px;
+    left:0;
+    width: 40px;
+    border-bottom: 2px solid rgb(49, 49, 83);
+}
+
+/*End Global*/
+
+
+/*Start Frameworks*/
+
+.clearfix {
+    clear: both;
+}
+/*End Frameworks*/
+
+/*Start Header*/
+header {
+    padding: 20px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header .logo {
+    width:10%;
+    text-align: center;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+header .container div {
+    float: left;
+}
+header .links {
+    width:55%
+}
+
+header .links a {
+    float: left;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-top: 45px;
+    text-decoration: none;
+    position: relative;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(211, 234, 255);
+}
+header .links a.active {
+    color: rgb(40, 40, 70);
+    border-bottom: 1.5px solid rgb(40, 40, 70);
+    padding-bottom: 4px;
+}
+header .links a:hover{
+    border:1.5px solid rgb(211, 234, 255);
+    padding: 3px 6px;
+}
+
+header .sign li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px 10px 30px 0px;
+}
+header .sign a {
+    line-height: 4;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgb(137, 179, 216);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 40px;
+    color: rgb(137, 179, 216);
+    background-color: rgb(40, 40, 70);
+}
+
+header .sign a:hover {
+    background-color: rgb(60, 60, 105);
+}
+
+/*End Header*/
+
+
+/*Start Content*/
+
+.slidef {
+    width: 30%;
+    overflow: hidden;
+}
+
+.content .def img {
+    width: 520px;
+    height: 300px;
+    float: left;
+    margin: 5px 35px;
+    border-radius: 19%;
+}
+
+.content .def p {
+    color:rgb(211, 234, 255);
+    margin-top:30px;
+    font-size: large;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.content .articles {
+    margin: 5px 35px;
+}
+
+.content .articles li {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px 35px;
+    color :#3d5064;
+}
+
+.content .articles p {
+    width: 60%;
+    overflow: hidden;
+    letter-spacing: 1px;
+    color:rgb(211, 234, 255);
+    margin: 25px 55px;
+    font-size: large;
+    line-height: 25px;
+}
+
+.content .articles form p {
+    float: left;
+    width: 135px;
+    overflow: hidden;
+    color :#3d5064;
+    margin-top: 0px;
+}
+
+.content .articles form button {
+    line-height: 4;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgb(137, 179, 216);
+    border-radius: 10px;
+    color: rgb(137, 179, 216);
+    background-color: rgb(40, 40, 70);
+    margin-left: 250px;
+    margin-top: 45px;
+}
+
+.content .articles form input ,
+.content .articles form textarea {
+    padding: 5  px;
+    background-color: rgb(211, 234, 255,1.5);
+    border: none;
+    border-radius: 10%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    color: lightgrey;
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: rgb(201, 44, 57);
+    color: white;
+}
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+/*End Content*/
+
+
+/*Start Footer*/
+
+footer {
+    margin-top: 110px;
+    background: linear-gradient(to right,#455e77, #7d8b94);
+}
+
+p#footerText {
+    line-height: 4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*End Footer*/
+
+
+/*Start SignUp*/
+
+.content .def .slidef {
+    padding :0 20px;
+}
+
+
+.content .container fieldset input,
+.content .def form input {
+    padding: 5  px;
+    background-color: rgb(211, 234, 255,1.5);
+    border: none;
+    line-height: 2;
+    border-radius: 10%;
+    font-weight: normal;
+    margin: 10px 16px;
+    overflow: hidden;
+}
+.content .def form input.fn{
+    width:40%;
+    float: left;
+}
+.content .def form input.ln{
+    width: 40%;
+}
+
+.content .container fieldset button,
+.content .def form button {
+    line-height: 2;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgb(137, 179, 216);
+    border-radius: 10px;
+    color: rgb(137, 179, 216);
+    background-color: rgb(40, 40, 70);
+    margin: 40px 45px;
+}
+
+/*End SignUp*/
+
+
+/*Start Login*/
+
+.content .login {
+    text-align: center;
+}
+.content .login img {
+    width: 200px;
+    height: 150px;
+}
+.content .container fieldset {
+    margin:5% 25%;
+    text-align: center;
+    width: 50%;
+    height: 250px;
+}
+.content .container fieldset legend {
+    font-size: large;
+    font-weight: bold;
+    color:rgb(40, 40, 70);
+    position: relative;
+}
+.content .container fieldset input {
+    width: 350px;
+}
+
+/*End Login*/
